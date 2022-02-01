@@ -1,8 +1,18 @@
 import React from "react";
-import ReactDom from "react-dom";
-
+import Nav from "./components/Nav";
+import Card from "./components/Card";
+import data from "./data";
 function App() {
-  return <div></div>;
+  const cards = data.map((card, index) => {
+    return <Card key={index} {...card} />;
+  });
+  console.log(cards);
+  return (
+    <div>
+      <Nav />
+      {cards}
+    </div>
+  );
 }
 
 export default App;
