@@ -9,9 +9,9 @@ function Card(props) {
         <img src={props.imageUrl}></img>
       </div>
       <div className='content-container'>
-        <section>
+        <section className='title-container'>
           <h1>{props.title}</h1>
-          <FontAwesomeIcon icon={faExternalLinkAlt} />
+          <FontAwesomeIcon icon={faExternalLinkAlt} className='icon' />
         </section>
         <section>
           <h3>
