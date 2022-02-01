@@ -1,0 +1,34 @@
+body {
+  background-color: #f1faee;
+  text-align: justify;
+}
+.card-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 50px;
+}
+.image-container {
+  width: 400px;
+  max-height: 570px;
+}
+.image-container > img {
+  width: inherit;
+  height: inherit;
+}
+.title-container {
+  display: flex;
+  gap: 10px;
+  justify-content: start;
+  align-items: flex-start;
+}
+.title-container > .icon {
+  position: relative;
+  top: 20px;
+}
+.icon:hover {
+  color: #a8dadc;
+  cursor: pointer;
+}
