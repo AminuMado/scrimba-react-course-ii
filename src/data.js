@@ -44,7 +44,7 @@ export default [
     Genre: "Role-playing",
     Link: "https://en.wikipedia.org/wiki/Final_Fantasy_X",
     description:
-      "Set in the fantasy world of Spira, a setting influenced by the South Pacific, Thailand and Japan,[1] the game's story revolves around a group of adventurers and their quest to defeat a rampaging monster known as Sin. The player character is Tidus, a star athlete in the fictional sport of blitzball, who finds himself in Spira after Sin destroyed his home city of Zanarkand. Shortly after arriving to Spira, Tidus becomes a guardian to summoner Yuna to destroy Sin upon learning its true identity is that of his missing father, Jecht.",
+      "Set in the fantasy world of Spira, a setting influenced by the South Pacific, Thailand and Japan,the game's story revolves around a group of adventurers and their quest to defeat a rampaging monster known as Sin. The player character is Tidus, a star athlete in the fictional sport of blitzball, who finds himself in Spira after Sin destroyed his home city of Zanarkand. Shortly after arriving to Spira, Tidus becomes a guardian to summoner Yuna to destroy Sin upon learning its true identity is that of his missing father, Jecht.",
     imageUrl: finalFantasy_Src,
   },
 ];
